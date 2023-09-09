@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_favorite_movie">Empty Favorite Movie</string>
+    <string name="error_get_favorite_movie">Error Get Favorite Movie</string>
+    <string name="error_to_get_movie_from_api">Error To Get Movie From Api</string>
+    <string name="search_bar">Movie finder</string>
+    <string name="my_favorite">My Favorite</string>
+</resources>

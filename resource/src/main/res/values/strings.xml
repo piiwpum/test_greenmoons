@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Cinemo</string>
+
+
+    <string name="txt_title_profile">Hi! %s</string>
+    <string name="txt_temp_max">Max : %s°</string>
+    <string name="txt_temp_min">Min : %s°</string>
+    <string name="txt_wind_speed">%s km/h</string>
+    <string name="txt_forecast_title">Forecast</string>
+
+    <string name="txt_signin_title">Welcome\ngreenmoons</string>
+    <string name="txt_signin">Sign in</string>
+    <string name="txt_phone_hint">Phone</string>
+    <string name="txt_password_hint">Password</string>
+    <string name="txt_no_account">Don`t have an account yet?  Sign Up</string>
+
+    <string name="txt_signup_title">Create\nAccount</string>
+    <string name="txt_signup">Sign Up</string>
+
+    <string name="txt_error_signin_no_user">User not found</string>
+    <string name="txt_error_signin_wrong_password">Password is wrong</string>
+    <string name="txt_error_signin_fill_out">Please fill out this in complete</string>
+
+    <string name="txt_error_signup_have_user">Have user in system</string>
+    <string name="txt_error_signup_password_not_match">Password not match</string>
+
+    <string name="txt_profile_title">User Profile</string>
+    <string name="txt_profile_account_title">Account</string>
+    <string name="txt_profile_edit_profile">Edit Profile</string>
+
+    <string name="txt_update_profile_title">Update Profile</string>
+
+
+    <string name="txt_profile_logout">Log out</string>
+
+
+    <string name="txt_success">Success</string>
+    <string name="txt_okay">Okay</string>
+    <string name="txt_close">Close</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_try_again">Try again</string>
+
+    <string name="txt_error">Something is wrong , Please try again.</string>
+    <string name="txt_dialog_title_no_internet">No Internet , please try again</string>
+
+
+
+    <string name="txt_dialog_title_enable_location">Please enable location services</string>
+    <string name="txt_dialog_title_permission_denied">Please enable location services</string>
+
+
+</resources>

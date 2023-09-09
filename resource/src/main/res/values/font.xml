@@ -1,0 +1,99 @@
+<resources>
+    <style name="FontBold">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontBold.8" parent="FontBold">
+        <item name="android:textSize">@dimen/font_extra_small</item>
+    </style>
+
+    <style name="FontBold.10" parent="FontBold">
+        <item name="android:textSize">@dimen/font_smallest</item>
+    </style>
+
+    <style name="FontBold.12" parent="FontBold">
+        <item name="android:textSize">@dimen/font_smaller</item>
+    </style>
+
+    <style name="FontBold.14" parent="FontBold">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="FontBold.16" parent="FontBold">
+        <item name="android:textSize">@dimen/font_default</item>
+    </style>
+
+    <style name="FontBold.18" parent="FontBold">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="FontBold.20" parent="FontBold">
+        <item name="android:textSize">@dimen/font_larger</item>
+    </style>
+
+    <style name="FontBold.22" parent="FontBold">
+        <item name="android:textSize">@dimen/font_largest</item>
+    </style>
+
+    <style name="FontBold.24" parent="FontBold">
+        <item name="android:textSize">@dimen/font_extra_large</item>
+    </style>
+
+    <style name="FontBold.28" parent="FontBold">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+    <style name="FontRegular">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontRegular.8" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_extra_small</item>
+    </style>
+
+    <style name="FontRegular.10" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_smallest</item>
+    </style>
+
+    <style name="FontRegular.12" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_smaller</item>
+    </style>
+
+    <style name="FontRegular.14" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="FontRegular.16" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_default</item>
+    </style>
+
+    <style name="FontRegular.18" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="FontRegular.20" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_larger</item>
+    </style>
+
+    <style name="FontRegular.22" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_largest</item>
+    </style>
+
+    <style name="FontRegular.24" parent="FontRegular">
+        <item name="android:textSize">@dimen/font_extra_large</item>
+    </style>
+
+    <style name="FontRegular.28" parent="FontRegular">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PickupRecipientInfoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            android:elevation="16dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/space_default"
+                android:text="@string/app_tile_name"
+                android:textAppearance="@style/FontBold.24"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/toolbar"
+                app:layout_constraintStart_toStartOf="@id/toolbar"
+                app:layout_constraintTop_toTopOf="@id/toolbar" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_largest">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imvPoster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/space_extra_large"
+                    android:layout_marginTop="@dimen/space_default"
+                    tools:background="@color/color_gray_hint" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/space_default"
+                    android:layout_marginTop="@dimen/space_default"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/FontBold.16"
+                    tools:text="Romance/Sci-Fi/Thriller" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvTitleMovie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/space_default"
+                    android:layout_marginTop="@dimen/space_smaller"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/FontBold.24"
+                    tools:text="Reminiscence" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvDescMovie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/space_default"
+                    android:layout_marginTop="@dimen/space_default"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/FontRegular.16"
+                    tools:text="D'Artagnan, a spirited young Gascon, is left for dead after trying to save a noblewoman from being kidnapped. Once in Paris, he tries by all means to find his attackers, unaware that his quest will lead him to the very heart of a war where the future of France is at stake. Aided by King's Musketeers Athos, Porthos and Aramis, he faces the machinations of villainous Cardinal Richelieu and Milady de Winter, while falling in love with Constance, the Queen's confidante.\r\n" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_default"
+                    android:background="@drawable/bg_border_pink_24"
+                    android:paddingHorizontal="@dimen/space_larger"
+                    android:paddingVertical="@dimen/space_smaller"
+                    android:text="Add to Favorite"
+                    android:textAppearance="@style/FontRegular.18"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
